@@ -4,7 +4,7 @@
 }
 header {
   width: 100%;
-  background-color: blue;
+  background-color: azure;
 }
 .header {
   display: flex;
@@ -60,7 +60,7 @@ header {
 .page button {
   width: 15%;
   font-size: 110%;
-  background-color: blueviolet;
+  background-color: rgb(205, 243, 243);
   border: 0;
   border-radius: 10px;
 }
@@ -114,4 +114,8 @@ button {
   border-radius: 20px;
   border: 0;
   background-color: #458ff6;
+}
+.creation {
+  text-align: center;
+  padding-top: 100px;
 }
