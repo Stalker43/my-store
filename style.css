@@ -42,3 +42,36 @@ header {
   color: black;
   outline: none;
 }
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page * {
+  margin: 15px;
+}
+.page h1 {
+  font-size: 300%;
+}
+.page p {
+  font-size: 200%;
+}
+.page button {
+  width: 15%;
+  font-size: 110%;
+  background-color: blueviolet;
+  border: 0;
+  border-radius: 10px;
+}
+.statistics-info {
+  display: flex;
+  justify-content: space-around;
+}
+.stat h1 {
+  font-size: 350%;
+  text-align: center;
+}
+.stat p {
+  font-size: 200%;
+}
