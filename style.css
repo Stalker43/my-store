@@ -136,7 +136,7 @@ nav li {
   position: relative;
 }
 .main-list li a {
-  color: white;
+  color: yellow;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
