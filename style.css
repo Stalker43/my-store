@@ -119,3 +119,46 @@ button {
   text-align: center;
   padding-top: 100px;
 }
+nav ul,
+nav li {
+  list-style: none;
+}
+.main-list {
+  display: flex;
+}
+.main-list li {
+  width: 150px;
+  text-align: center;
+  background-color: #383c54;
+  position: relative;
+}
+.main-list li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 0;
+}
+.main-list li a:hover {
+  background-color: #808291;
+  transition: all 0.3s;
+}
+.first-list {
+  position: absolute;
+
+  top: 100%;
+  left: 0%;
+  display: none;
+}
+.main-list li:hover .first-list {
+  display: block;
+}
+.second-list {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+.first-list li:hover .second-list {
+  display: block;
+}
